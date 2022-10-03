@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+svg{
+    background-color: wheat;
+}
+.cell:hover{
+    fill:darkgreen;
+}
+#canvas{
+    
+    min-height: 600px;
+    min-width: 1200px;
+}
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
