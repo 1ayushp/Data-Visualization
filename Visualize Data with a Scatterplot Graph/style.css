@@ -1,0 +1,27 @@
+
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: wheat;
+}
+
+#canvas{
+    background-color: wheat;
+    /* min-height: 600px;
+    min-width: 1000px; */
+    
+}
+
+.dot:hover{
+    fill: black;
+}
+
+#title{
+    font-size: 28px;
+    
+}
